@@ -22,7 +22,7 @@ func p() {
 	defer wg.Done()
 LOOP:
 	for {
-		fmt.Println("孙")
+		fmt.Println("孙世军")
 		time.Sleep(time.Millisecond * 1000)
 		select {
 		case <-notify:
